@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hungtranbkit.github.io/so-tro-landing/sitemap.xml
