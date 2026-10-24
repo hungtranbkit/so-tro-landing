@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://hungtranbkit.github.io/so-tro-landing/sitemap.xml
+Sitemap: https://sotro.mesflow.net/sitemap.xml

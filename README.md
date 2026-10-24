@@ -1,8 +1,8 @@
 # Sổ Trọ — public landing and safe demo entry
 
-**Public landing:** https://hungtranbkit.github.io/so-tro-landing/  
+**Public landing:** https://sotro.mesflow.net/ (fallback https://hungtranbkit.github.io/so-tro-landing/ redirects here once the custom domain is active)  
 **Preview app (fictional data only):** https://sotro-preview.mesflow.net/  
-**Privacy notice:** https://hungtranbkit.github.io/so-tro-landing/quyen-rieng-tu.html
+**Privacy notice:** https://sotro.mesflow.net/quyen-rieng-tu.html
 
 This is a public product-information website for Vietnam's small landlords, with a client-only billing calculator. The **preview** is a separate Next.js application and is not licensed or approved for storing real renter data or receiving rent payments.
 
