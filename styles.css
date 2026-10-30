@@ -22,3 +22,86 @@
 .privacy-doc a{text-decoration:underline;text-underline-offset:3px}
 .privacy-doc .notice{border:1px solid #d2decc;background:#ecf3e8;border-radius:12px;padding:20px 24px;margin:35px 0}
 @media(max-width:760px){.demo-layout{grid-template-columns:1fr;gap:28px}.demo-cta-card{padding:26px;transform:none}.demo-proof span{font-size:10px}.privacy-page{padding:54px 0}.privacy-doc h2{margin-top:27px}}
+
+
+/* Product education and contact experience — 2026-10-30 */
+.details-v2{background:#f1f2e9;border-top:1px solid var(--line)}
+.details-v2 .section-header{margin-bottom:30px}
+.v2-details-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.v2-details-grid details{background:#fffefa;border:1px solid #dce2d5;border-radius:16px;padding:0 22px;transition:border-color .2s,box-shadow .2s}
+.v2-details-grid details[open]{border-color:#98b7a2;box-shadow:0 12px 26px #123d3210}
+.v2-details-grid summary{display:flex;align-items:center;gap:14px;list-style:none;min-height:80px;cursor:pointer;outline-offset:5px;font-size:17px}
+.v2-details-grid summary::-webkit-details-marker{display:none}
+.v2-details-grid summary b{display:grid;place-items:center;flex:0 0 43px;height:43px;border-radius:12px;background:#e6eee3;font-size:23px;color:#2f6d53}
+.v2-details-grid summary strong{flex:1;letter-spacing:-.02em}
+.v2-details-grid summary span{font-size:23px;color:#54745e;font-weight:400;transition:transform .2s}
+.v2-details-grid details[open] summary span{transform:rotate(45deg)}
+.v2-details-grid details p{margin:-4px 0 24px 57px;font-size:14px;color:#596b60;line-height:1.8}
+.v2-small-note{margin:22px 0 0;font-size:12px;color:#65766b}
+.tutorial-v2{background:#173e35;color:#fffaf0;overflow:hidden}
+.tutorial-v2-grid{display:grid;grid-template-columns:minmax(0,.84fr) minmax(0,1.1fr);gap:64px;align-items:center}
+.tutorial-v2 .section-kicker{color:#e4d8b2}
+.tutorial-v2 h2{margin:23px 0 20px}
+.tutorial-v2 h2 em{color:#efcb6a}
+.tutorial-v2 p{color:#d4e1d5}
+.tutorial-v2 .text-link{color:#fff7d5;border-color:#f0d789;display:inline-block;margin-top:20px}
+.tutorial-chapters{list-style:none;padding:0;margin:26px 0;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tutorial-chapters button{display:block;width:100%;text-align:left;min-height:49px;padding:11px 12px;border:1px solid #668477;border-radius:11px;background:#ffffff08;color:#d5e5d8;font-size:12px;font-weight:700;line-height:1.5}
+.tutorial-chapters button.active,.tutorial-chapters button:hover,.tutorial-chapters button:focus-visible{background:#f3d175;color:#1a4035;border-color:#f3d175}
+.tour-v2-player{background:#f8f7ef;color:#1f4136;border-radius:22px;overflow:hidden;box-shadow:0 25px 80px #071b1566;min-width:0}
+.tour-v2-top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:18px 21px;background:#e6ebdf;border-bottom:1px solid #d5dfd2;font-size:10px;font-weight:900;letter-spacing:.08em}
+.tour-v2-top span:first-child{color:#346f50}
+.tour-v2-top span:last-child{font-variant-numeric:tabular-nums}
+.tour-v2-scene{min-height:430px;padding:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:radial-gradient(circle at 25% 20%,#f1d66b65,transparent 35%),#eff4e9}
+.tour-v2-device{width:min(295px,90%);min-height:335px;border:9px solid #1b3e35;border-radius:30px;background:#fffef7;box-shadow:12px 13px 0 #163d3122;overflow:hidden;animation:tour-enter .45s ease-out}
+.tour-v2-device-head{height:43px;background:#f1f3ec;display:flex;justify-content:space-between;align-items:center;padding:0 14px;border-bottom:1px solid #d8e2d5;font-size:13px}
+.tour-v2-content{padding:20px 17px 16px;min-height:269px}
+.tour-v2-content h3{font-size:25px;letter-spacing:-.06em;line-height:1.17;margin:12px 0}
+.tour-v2-content p{font-size:12px;line-height:1.6;margin-bottom:14px;color:#627267}
+.tour-v2-kicker{font-size:10px;font-weight:900;letter-spacing:.09em;color:#458068}
+.tour-v2-highlight{background:#f3cc58;color:#183e32;border-radius:10px;padding:12px 13px;font-size:13px;font-weight:900;box-shadow:0 4px 0 #dfb53a}
+.tour-v2-box{background:#f3f5ef;border:1px solid #dce5d7;border-radius:11px;padding:11px;margin:9px 0;font-size:12px;color:#234c3c}
+.tour-v2-box strong{font-size:16px}
+.tour-v2-box small{display:block;font-size:10px;color:#587366;margin-top:3px}
+.tour-v2-box.flex{display:flex;align-items:center;justify-content:space-between;gap:6px}
+.tour-v2-tag{display:inline-block;padding:4px 8px;border-radius:14px;font-size:10px;background:#d5e9da;color:#28724c;font-weight:900}
+.tour-v2-subtitle{max-width:480px;text-align:center;color:#284f3f;font-weight:750;font-size:13px;line-height:1.65;min-height:42px}
+.tour-v2-progress{height:5px;background:#cdd9cc}
+.tour-v2-progress span{display:block;height:100%;width:0;background:#377a57;transition:width .18s linear}
+.tour-v2-buttons{display:flex;justify-content:center;align-items:center;gap:12px;padding:16px}
+.tour-v2-buttons button{border:1px solid #c7d8ca;background:#fff;border-radius:999px;min-height:44px;min-width:44px;padding:9px 17px;font-weight:850;color:#174338}
+.tour-v2-buttons #tour-v2-play{min-width:165px;background:#1b4639;color:#fff}
+.tour-v2-buttons button:hover{filter:brightness(.94)}
+.tour-v2-footnote{font-size:10px;text-align:center;padding:0 20px 18px;margin:0;color:#697a6e!important}
+@keyframes tour-enter{from{opacity:.55;transform:scale(.97) translateY(6px)}to{opacity:1;transform:none}}
+.contact-v2{background:#fffaf1;border-top:1px solid #e6decf}
+.contact-v2-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.94fr);gap:64px;align-items:center}
+.contact-v2-left h2{margin:23px 0}
+.contact-v2-left p{color:#596c5e;font-size:15px}
+.contact-v2-zalo{display:flex;align-items:center;gap:15px;background:#e9f2e6;border:1px solid #b9d1bc;border-radius:18px;padding:18px 20px;margin:25px 0;max-width:440px;transition:transform .15s}
+.contact-v2-zalo:hover{transform:translateY(-3px)}
+.zalo-logo-v2{display:grid;place-items:center;width:54px;height:54px;border-radius:16px;color:#fff;background:#0869db;font-size:32px;font-weight:900;flex:0 0 auto}
+.contact-v2-zalo span:last-child{display:flex;flex-direction:column;gap:3px}
+.contact-v2-zalo small{font-size:10px;font-weight:700;color:#567065}
+.contact-v2-zalo strong{font-size:27px;letter-spacing:-.04em;color:#164737}
+.contact-v2-phone{font-size:12px!important}
+.contact-v2-phone a{font-weight:850;text-decoration:underline;text-underline-offset:3px}
+.contact-v2-form{background:#fff;border:1px solid #e2dfd0;border-radius:22px;padding:30px;box-shadow:0 22px 48px #244d2810}
+.request-v2-label{display:inline-block;background:#fbe3a0;color:#40503c;padding:6px 10px;font-size:10px;border-radius:7px;letter-spacing:.1em;font-weight:900}
+.contact-v2-form h3{font-size:27px;line-height:1.23;letter-spacing:-.04em;margin:16px 0 7px}
+.contact-v2-form p{color:#647369;font-size:13px}
+.contact-v2-form label{display:block;margin:19px 0 8px;font-size:12px;font-weight:850}
+.contact-v2-form select,.contact-v2-form textarea{display:block;width:100%;border:1px solid #bdcfc0;background:#fcfdf9;color:#233f34;border-radius:11px;padding:12px;min-height:46px;font:inherit;font-size:14px;resize:vertical}
+.contact-v2-form :is(select,textarea):focus-visible{outline:3px solid #eac55d;outline-offset:2px}
+.request-v2-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:20px}
+.request-v2-actions .button{min-height:48px;padding:14px 19px;font-size:12px;gap:5px}
+.request-v2-open{font-size:12px;font-weight:900;text-decoration:underline;text-underline-offset:4px;color:#236246}
+.request-v2-status{font-size:12px!important;margin:15px 0 0;color:#526e60!important;line-height:1.5!important}
+#request-v2-fallback:not([hidden]){display:block;margin-top:12px}
+.floating-zalo-v2{position:fixed;right:20px;bottom:22px;z-index:60;display:flex;align-items:center;gap:9px;padding:10px 16px 10px 10px;background:#0876e5;color:#fff;border:2px solid #fff;border-radius:100px;box-shadow:0 8px 28px #17456d55;font-size:12px;font-weight:850}
+.floating-zalo-v2 strong{display:grid;place-items:center;background:#fff;color:#0876e5;width:32px;height:32px;border-radius:100%;font-size:21px}
+.floating-zalo-v2:hover{background:#075cbd;transform:translateY(-2px)}
+.top-nav{gap:20px}
+@media(max-width:960px){.tutorial-v2-grid,.contact-v2-grid{grid-template-columns:1fr;gap:34px}.tutorial-v2-grid{max-width:690px}.contact-v2-grid{max-width:800px}.v2-details-grid{grid-template-columns:1fr}.tour-v2-scene{min-height:410px}}
+@media(max-width:600px){.v2-details-grid summary{font-size:14px;gap:9px;min-height:67px}.v2-details-grid details{padding:0 15px}.v2-details-grid summary b{flex-basis:36px;height:36px;font-size:19px}.v2-details-grid details p{margin:0 0 18px 45px;font-size:12px}.tutorial-chapters{grid-template-columns:1fr 1fr;gap:6px}.tutorial-chapters button{font-size:11px;padding:10px}.tour-v2-stage{padding:10px}.tour-v2-scene{min-height:390px;padding:16px 9px}.tour-v2-device{width:270px;min-height:314px}.tour-v2-content{padding:14px}.tour-v2-top{font-size:9px;padding:13px 10px}.contact-v2-form{padding:23px 17px}.contact-v2-form h3{font-size:24px}.contact-v2-zalo strong{font-size:23px}.floating-zalo-v2{right:10px;bottom:10px}.floating-zalo-v2 span{display:none}.floating-zalo-v2{padding:8px}}
+@media(prefers-reduced-motion:reduce){.tour-v2-device{animation:none}.tour-v2-progress span{transition:none}.contact-v2-zalo,.floating-zalo-v2{transition:none}}
