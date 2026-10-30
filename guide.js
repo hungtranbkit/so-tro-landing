@@ -67,7 +67,7 @@
     progress.style.width = (elapsed / duration * 100).toFixed(1) + "%";
     time.textContent = "00:" + pad(Math.floor(elapsed)) + " / 01:00";
     if (play) {
-      play.textContent = running ? "❚❚ Tạm dừng" : elapsed >= duration ? "↺ Phát lại video" : "▶ Phát video";
+      play.textContent = running ? "❚❚ Tạm dừng" : elapsed >= duration ? "↺ Phát lại video" : "▶ Phát hướng dẫn";
       play.setAttribute("aria-pressed", String(running));
     }
   }
