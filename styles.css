@@ -105,3 +105,21 @@
 @media(max-width:960px){.tutorial-v2-grid,.contact-v2-grid{grid-template-columns:1fr;gap:34px}.tutorial-v2-grid{max-width:690px}.contact-v2-grid{max-width:800px}.v2-details-grid{grid-template-columns:1fr}.tour-v2-scene{min-height:410px}}
 @media(max-width:600px){.v2-details-grid summary{font-size:14px;gap:9px;min-height:67px}.v2-details-grid details{padding:0 15px}.v2-details-grid summary b{flex-basis:36px;height:36px;font-size:19px}.v2-details-grid details p{margin:0 0 18px 45px;font-size:12px}.tutorial-chapters{grid-template-columns:1fr 1fr;gap:6px}.tutorial-chapters button{font-size:11px;padding:10px}.tour-v2-stage{padding:10px}.tour-v2-scene{min-height:390px;padding:16px 9px}.tour-v2-device{width:270px;min-height:314px}.tour-v2-content{padding:14px}.tour-v2-top{font-size:9px;padding:13px 10px}.contact-v2-form{padding:23px 17px}.contact-v2-form h3{font-size:24px}.contact-v2-zalo strong{font-size:23px}.floating-zalo-v2{right:10px;bottom:10px}.floating-zalo-v2 span{display:none}.floating-zalo-v2{padding:8px}}
 @media(prefers-reduced-motion:reduce){.tour-v2-device{animation:none}.tour-v2-progress span{transition:none}.contact-v2-zalo,.floating-zalo-v2{transition:none}}
+
+/* Current product and demo entry, 2026-11-06. */
+.release-section{padding:76px 0;background:#fffaf1;border-bottom:1px solid var(--line)}
+.release-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:28px}
+.release-label{font-size:11px;font-weight:800;letter-spacing:.12em;color:#54745e;margin-bottom:16px}
+.release-heading h2{font-size:clamp(35px,4vw,56px);margin:0;line-height:1.15}
+.release-heading>p{max-width:320px;margin:0;font-size:14px;color:var(--muted)}
+.release-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.release-card{display:flex;flex-direction:column;padding:26px;border:1px solid #d7e0d3;border-radius:16px;background:var(--white);min-width:0}
+.release-badge{align-self:start;padding:7px 10px;border-radius:7px;background:#dcebdc;color:#285d42;font-size:10px;font-weight:800;letter-spacing:.04em;line-height:1.5}
+.release-badge-wait{background:#f9e8b4;color:#6b531d}
+.release-card h3{font-size:24px;letter-spacing:-.04em;line-height:1.2;margin:24px 0 14px}
+.release-card p,.release-card li{font-size:14px;line-height:1.7;color:#52695c}
+.release-card ol{padding-left:20px;margin:0 0 24px}
+.release-note{padding-top:14px;border-top:1px solid #e0e5da}
+.release-card .text-link{margin-top:auto;align-self:start;white-space:normal;line-height:1.5;padding:10px 0;min-height:44px}
+.release-footnote{font-size:12px;color:var(--muted);margin:22px 0 0;max-width:940px}
+@media(max-width:900px){.release-grid{grid-template-columns:1fr}.release-heading{display:block}.release-heading>p{margin-top:20px;max-width:600px}.release-card h3{margin-top:18px}.release-section{padding:54px 0}}

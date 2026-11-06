@@ -27,3 +27,7 @@ GitHub Pages dùng `main` của repo public này với custom domain `sotro.mesf
 Các file: `index.html`, `styles.css`, `main.js` (calculator + menu), `guide.js` (clip minh họa và form soạn yêu cầu), `quyen-rieng-tu.html`, `CNAME`, favicon/OG images.
 
 QA cần thiết khi thay đổi: HTML/CSS/JS không lỗi, phát/tạm dừng/chọn bước, clipboard fallback, liên kết Zalo, menu mobile, 320/390/430/1366 px, HTTPS/canonical, privacy page, và kiểm tra demo URL.
+
+## Cập nhật 06/11/2026
+
+Bổ sung mục bản hiện tại, hướng dẫn nút “Mở bản dùng thử”, phân biệt web demo/Android và nhận diện MESFlow. Giữ link demo gốc vì /dung-thu chưa có trên runtime. Giá thương mại chưa công bố. Thông tin quảng bá phải dựa trên tính năng thực tế, chia sẻ Zalo và xác nhận ngân hàng vẫn thủ công.
